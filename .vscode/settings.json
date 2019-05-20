@@ -1,0 +1,36 @@
+{
+  "files.autoSave": "onWindowChange",
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.formatOnSave": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "javascript.validate.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "html"
+  ],
+  "blueprint.templatesPath": [
+    ".vscode/blueprint-templates"
+  ],
+  "cSpell.words": [
+    "mixins",
+    "LIFECYCLE",
+    "nuxt",
+    "nuxtjs",
+    "vuex"
+  ],
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    ".vscode",
+    "typings"
+  ],
+}
